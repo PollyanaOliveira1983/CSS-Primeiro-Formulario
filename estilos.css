@@ -1,0 +1,33 @@
+
+root{
+    --cor-rosa:#bd74e7;/*pode ser guardado qualquer valor, cor, fonte, tamanho*/
+ }
+body{
+    background-color: rgb(228, 175, 211);
+}    
+    
+h1 {
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color:var(--cor-rosa);
+    background-color: var(--cor-rosa);
+    border: 5px solid black;
+
+}
+button[class^="btn"] {
+    background-color:var(--cor-rosa);
+    border: 3;
+    color: black;
+}
+
+fieldset{
+    border: 3px solid black;
+    text-align:justify
+    font-style: italic;
+    font-family:georgia;
+    font- size 3;
+
+}
+
+
